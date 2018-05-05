@@ -74,7 +74,7 @@ type blockData struct {
 var (
 	neo4jURL = "bolt://neo4j:root@localhost:7687"
 	client   = http.Client{}
-	url      = "http://172.25.32.21:8545"
+	url      = ""
 	db, err  = driver.NewDriver().OpenNeo(neo4jURL)
 )
 
